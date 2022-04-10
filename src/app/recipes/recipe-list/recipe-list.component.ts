@@ -10,8 +10,8 @@ export class RecipeListComponent implements OnInit {
 
   public recipes:Recipe[] = [
     new Recipe("Chocolate","Good","https://picsum.photos/300/300?random=1"),
-    new Recipe("Chocolate","Good","https://picsum.photos/300/300?random=2"),
-    new Recipe("Chocolate","Good","https://picsum.photos/300/300?random=3")
+    new Recipe("Banana","nice","https://picsum.photos/300/300?random=2"),
+    new Recipe("Papaya","perfect","https://picsum.photos/300/300?random=3")
   ] ;
 
   constructor() { }
